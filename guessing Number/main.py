@@ -32,7 +32,11 @@ def guesser():
     else: 
         guess_box.delete(0, END) 
         num_label.config(text="Please enter a number") 
-
+ 
+ # todo: add a button to clear the text box 
+ # todo: add a button to reset the background color 
+ 
+ 
 def rando():
     global num 
     num = randint(1, 100)
